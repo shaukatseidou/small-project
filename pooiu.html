@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficher/Masquer une div</title>
+    <style>
+        #parametre {
+            display: none; /* La div est cachée par défaut */
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            background-color: #cfcccc;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggleButton">Afficher/Masquer</button>
+    <div id="parametre">
+        Contenu de la div à afficher/masquer.
+    </div>
+
+    <script>
+        // Récupération du bouton et de la div
+        var bouton = document.getElementById('toggleButton');
+        var divParametre = document.getElementById('parametre');
+
+        // Fonction pour basculer l'affichage de la div
+        bouton.addEventListener('click', function() {
+            // Vérifie la valeur actuelle de la propriété display de la div
+            if (divParametre.style.display === 'none' || divParametre.style.display === '') {
+                // Affiche la div
+                divParametre.style.display = 'block';
+            } else {
+                // Cache la div
+                divParametre.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+```

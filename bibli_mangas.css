@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    background-color: #0e0d0d;
+}
+
+header li {
+    list-style-type: none;
+}
+
+body {
+    z-index: 800;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: salium;
+    src: url(Salium.ttf);
+}
+
+@font-face {
+    font-family: citizen;
+    src: url(Citizen\ Carto.otf);
+}
+
+#navbar {
+    display: inline-block;
+    width: 100%;
+}
+
+.insigne li {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: salium;
+    font-size: 30px;
+    color: white;
+    margin: 50px;
+    margin-left: 70px;
+}
+
+.pt_outils {
+    float: right;
+    margin-right: 70px;
+    margin-top: -70px;
+}
+
+#lune {
+    color: white;
+    height: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+#moon {
+    color: black;
+    height: 20px;
+    cursor: pointer;
+}
+
+#lune:hover,
+#moon:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+#recherche::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+#recherche {
+    padding-left: 5px;
+    margin-top: 50px;
+    position: center;
+    margin-left: 37%;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-color: none;
+    font-family: monospace;
+}
+
+/* body */
+.presentation_div {
+    position: center;
+    margin-left: 40px;
+}
+
+.icones {
+    height: 300px;
+    display: inline-block;
+}
+
+.icones:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.icones h5 {
+    color: white;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.icones img {
+    width: 250px;
+    margin: 50px;
+}
+
+#king_btn a {
+    color: white;
+}
+
+#present_king {
+    height: 210px;
+    background: url(img/img1\ -\ Copie.png);
+    background-position: fixed;
+    width: 100%;
+    margin-top: -50px;
+}
+
+#insigne2 {
+    color: black;
+    background-color: transparent;
+    padding-top: 40px;
+}
+
+#lune2 {
+    color: black;
+    height: 20px;
+    cursor: pointer
+}
+
+/*  */
+.de:hover{
+    cursor:text;
+    color: darkgrey;
+}
+.autor{
+    color:white;
+    cursor:text;
+}
+#titleautor {
+    border: 5px solid white;
+ box-sizing: content-box;
+ width: 500px;
+ margin-top: 50px;
+ margin-left: 25%;
+ padding-left: 50px;
+}
+.name{
+    color: gold;
+}
+
+/* zap list */
+
+
+#zap_bar {
+    color: white;
+    margin-top: 100px;
+    display: block;
+    border: none;
+    box-shadow: 0 0 5px 0 black;
+    background-color: rgb(28, 28, 34);
+    margin-left: 200px;
+    width: 700px;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-right: 130px;
+    padding-left: 130px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: 225px;
+    height: 100px;
+}
+
+#zap_bar_top {
+    color: white;
+    margin-top: 100px;
+    display: block;
+    border: none;
+    box-shadow: 0 0 5px 0 black;
+    background-color: rgb(28, 28, 34);
+    margin-left: 200px;
+    width: 700px;
+    border-radius: 5px;
+    padding-right: 130px;
+    padding-left: 130px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: 225px;
+    height: 100px;
+}
+
+.but {
+
+    margin-left: 12px;
+    width: 100px;
+    margin-top: -25px;
+    height: 40px;
+    border: none;
+    background-color: rgb(4, 100, 4);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.bu {
+
+    margin-left: 12px;
+    width: 200px;
+    margin-top: -25px;
+    height: 40px;
+    border: none;
+    background-color: rgb(4, 100, 4);
+    border-radius: 5px;
+}
+
+.bu:hover {
+    background-color: rgb(9, 172, 9);
+    transform: scale(0.97);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: rgb(9, 172, 9);
+    transform: scale(0.97);
+    transition: 0.5s;
+}
+
+#k {
+    color: rgb(248, 248, 112);
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#p {
+    font-size: 2pc;
+    text-align: center;
+    position: center;
+}
+
+#p,
+#k {
+    padding-top: 10px;
+    font-family: citizen;
+
+}
+
+/* chapitres */
+#king_chapter {
+    margin-left: 50px;
+}
+
+#ch_one img {
+    height: 700px;
+    display: block;
+    width: 400px;
+    margin: 5px;
+    margin-left: 350px;
+}
+
+#ch_twoo img {
+    margin-left: 250px;
+    width: 650px;
+}
+
+#ch_three img {
+    margin-left: 250px;
+    width: 650px;
+}
+
+#ch_fourr img {
+    margin-left: 250px;
+    width: 650px;
+}
+
+#ch_fivee img {
+    margin-left: 250px;
+    width: 650px;
+}
+
+#zone_des_chapitres {
+
+    color: white;
+    display: inline-block;
+}
+
+#king_ch_list {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 300px;
+    border: 5px solid;
+    height: 350px;
+    padding: 10px;
+    padding-top: 40px;
+
+
+}
+
+span {
+    cursor: pointer;
+    color: rgb(163, 162, 162);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+span:hover {
+    color: white;
+    transform: scale(1.04);
+    transition: O.5s;
+}
+
+#synopsie {
+    float: right;
+    width: 250px;
+    margin-left: 800px;
+    margin-top: -350px;
+    border: 5px solid;
+    border-color: white;
+    padding: 25px;
+}
+
+#synopsie h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+#synopsie p {
+    text-align: justify;
+}
+
+#barre {
+    height: 0px;
+    border: 1px solid;
+    border-color: white;
+    width: 80px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+#bar {
+    height: 0px;
+    border: 1px solid;
+    border-color: white;
+    width: 250px;
+    margin: 10px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    background-color: #908060;
+}
+
+footer div {
+    display: inline-block;
+    margin-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+footer span {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer span img {
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+footer span img:hover {
+    transform: scale(1.4) rotate(-15deg);
+    transition: 0.5s
+}
+
+#commentaire {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.commentaire {
+    float: right;
+    margin-right: 100px;
+}
+
+.commentaire h3,
+.commentaire input,
+.commentaire span {
+    float: right;
+}
+
+#footer_submit {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(173, 32, 32);
+    border: none;
+    border-color: none;
+    cursor: pointer;
+}
+
+#footer_submit:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+/* Pop up */
+#pop_up_scan {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pop_div {
+    border-radius: 5px;
+    border-radius: 10px;
+
+}
+
+#img {
+    width: 300px;
+    margin: 0;
+}
+
+.scans_pop_up_message {
+    border-radius: 5px;
+    width: 300px;
+
+    background-color: black;
+    border-radius: 10px;
+
+    margin-top: 20%;
+}
+
+.scans_pop_up_message h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    width: 300px;
+
+}
+
+#scans_pop_up_btn_one {
+    border-color: none;
+    background-color: gold;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#scans_pop_up_btn_one:hover {
+    background-color: rgb(159, 161, 7);
+
+}
+
+#scans_pop_up_btn_two {
+    border-color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+}
+
+#scans_pop_up_btn_two:hover,
+#scans_pop_up_btn_one:hover {
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+.scans_pop_up_buttons {
+    padding-bottom: 20px;
+
+}
